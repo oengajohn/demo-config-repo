@@ -6,6 +6,10 @@ spring:
         uri: lb://DEPARTMENT-SERVICE
         predicates:
         - Path=/api/department/**
+      - id: employee-service
+        uri: lb://EMPLOYEE-SERVICE
+        predicates:
+        - Path=/api/employee/**
 server:
   port: 7000
 eureka:

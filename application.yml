@@ -1,6 +1,1 @@
 demo-name: spring-mastery-series
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
